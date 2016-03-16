@@ -21,6 +21,7 @@ app.get("/index.html", function  (req, res) {
       </head>
       <body>
         <div id="main">login...</div>
+        <script type="text/javascript" src="/assets/app/js/app.min.js"></script>
       </body>
     </html>
   `;
