@@ -1,12 +1,15 @@
 import React from "react";
 import {Router, Route} from "react-router";
-import Index from "../components/Index";
-import Main from "../components/Main";
+import App from "../components/App";
+import About from "../components/About";
+import List from "../components/List";
+
 
 let routes = (
-    <Route path="/" name="index" component={Index}>
-      <Route path="main"name="main" component={Main}/>
-    </Route>
+  <Route path="/" component={App}>
+    <Route path="about" component={About}/>
+    <Route path="list" component={List}/>
+  </Route>
 );
 
 export default routes;
