@@ -6,7 +6,10 @@ import {Router, Route, Link, browserHistory} from "react-router";
 class App extends Component{
   render(){
     return (
-      <div>App</div>
+      <div>
+        App
+        {this.props.children}
+      </div>
     );
   }
 }
