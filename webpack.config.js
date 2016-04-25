@@ -34,11 +34,12 @@ module.exports = {
             },
             {
               test: /\.scss$/,
-                loader: 'style!css!sass?sourceMap'
+                loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
             },
             {
                 test: /\.css$/,
-                loader: 'style!css!sass?sourceMap'
+                // loader: 'style!css?modules'
+                loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
             },
             {
                 test: /\.(png|jpg|gif)$/,
@@ -46,4 +47,7 @@ module.exports = {
             }
         ],
     },
+    postcss: function () {
+        return [require('autoprefixer'), require('precss')];
+    }
 }
