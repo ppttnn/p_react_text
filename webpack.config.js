@@ -38,12 +38,12 @@ module.exports = {
             // },
             {
               test: /\.less$/,
-              loader: "style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!less"
+              loader: "style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss!less"
             },
             {
               test: /\.css$/,
               // loader: 'style!css?modules'
-              loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+              loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss!less'
             },
             {
               test: /\.(png|jpg|gif)$/,
