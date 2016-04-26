@@ -1,0 +1,39 @@
+@button-bg-color: #ffb44a;
+@button-bg-hover-color: #ff9500;
+@button-color: #fff;
+@button-hover-color: #fff;
+@button-radius:2px;
+@button-margin: 5px;
+@button-padding: 10px;
+
+:global .button{
+  margin: @button-margin;
+  padding: @button-padding;
+  background: @button-bg-color;
+  border-radius: @button-radius;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  color: @button-color;
+  text-decoration: none;
+  border: none;
+}
+:global .button:hover{
+  text-decoration: none;
+  background: @button-bg-hover-color;
+  color: @button-hover-color;
+}
+button, input[type='button'], input[type='submit'], input[type='reset']{
+  margin: @button-margin;
+  padding: @button-padding;
+  background: @button-bg-color;
+  border-radius: @button-radius;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  color: @button-color;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover, input[type='button']:hover, input[type='submit']:hover, input[type='reset']:hover{
+  text-decoration: none;
+  background: @button-bg-hover-color;
+  color: @button-hover-color;
+}

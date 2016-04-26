@@ -1,9 +1,13 @@
 import React from "react";
 import {Router, Route} from "react-router";
-import App from "../components/App";
-import About from "../components/About";
-import List from "../components/List";
-
+import App from "../containers/App/App";
+import About from "../containers/About/About";
+import List from "../containers/List/List";
+// import {
+//   App,
+//   About,
+//   List
+// } from '../containers';
 
 let routes = (
   <Route path="/" component={App}>

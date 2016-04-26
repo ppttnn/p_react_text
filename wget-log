@@ -1,0 +1,54 @@
+重试中。
+
+--2016-04-26 11:05:03--  (尝试次数： 8)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:07:18--  (尝试次数： 9)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:09:34--  (尝试次数：10)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:11:52--  (尝试次数：11)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:14:09--  (尝试次数：12)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:16:26--  (尝试次数：13)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:18:43--  (尝试次数：14)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:21:00--  (尝试次数：15)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:23:18--  (尝试次数：16)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:25:35--  (尝试次数：17)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:27:52--  (尝试次数：18)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:30:09--  (尝试次数：19)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+重试中。
+
+--2016-04-26 11:32:27--  (尝试次数：20)  https://www.facebook.com/v2.6/dialog/oauth?client_id=224132527948678&redirect_uri=http://new.cnbizcheck.com/api/user/login/callback/FACEBOOK&response_type=code&scope=email
+正在连接 www.facebook.com (www.facebook.com)|59.24.3.173|:443... 失败：连接超时。
+放弃操作。
+

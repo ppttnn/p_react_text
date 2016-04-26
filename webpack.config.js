@@ -24,26 +24,30 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loaders: [ "babel-loader"],
+              test: /\.js$/,
+              exclude: /node_modules/,
+              loaders: [ "babel-loader"],
             },
             {
-                test: /\.html$/,
-                loader: "file?name=[name].[ext]",
+              test: /\.html$/,
+              loader: "file?name=[name].[ext]",
+            },
+            // {
+            //   test: /\.scss$/,
+            //   loader: 'style!css!sass?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+            // },
+            {
+              test: /\.less$/,
+              loader: "style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!less"
             },
             {
-              test: /\.scss$/,
-                loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+              test: /\.css$/,
+              // loader: 'style!css?modules'
+              loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
             },
             {
-                test: /\.css$/,
-                // loader: 'style!css?modules'
-                loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
-            },
-            {
-                test: /\.(png|jpg|gif)$/,
-                loader: 'url-loader'
+              test: /\.(png|jpg|gif)$/,
+              loader: 'url-loader'
             }
         ],
     },
